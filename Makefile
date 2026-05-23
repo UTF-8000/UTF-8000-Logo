@@ -1,5 +1,5 @@
 .PHONY: all
-all: *.png
+all: images/*.png
 
 %.png: %.svg
 	inkscape --export-type=png $<
