@@ -1,0 +1,14 @@
+# Languages section of GitHub repo page
+
+## Exclude Makefile
+Makefile linguist-documentation=true
+
+## Include SVGs
+*.svg linguist-detectable=true
+
+## Try but fail to include these.
+## Because they're binary they are not counted.
+*.png linguist-detectable=true
+*.gif linguist-detectable=true
+*.ico linguist-detectable=true
+*.jpg linguist-detectable=true
