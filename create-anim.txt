@@ -1,1 +1,0 @@
-convert -loop 0 -delay 100 images/overlong-window/utf-8000-code-unit-s-{5..0}.blanchedalmond.png -delay 20 images/overlong-window/utf-8000-code-unit-s-0-0{1..9}0.blanchedalmond.png -delay 120 images/overlong-window/utf-8000-code-unit-s-0-100.blanchedalmond.png -layers Optimize images/utf-8000-overlong-window.gif
